@@ -39,6 +39,30 @@ body {
   color: #555;
 }
 /******************************************************/
+/* General Reusable  Component */
+/******************************************************/
+.container {
+  /*  1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/******************************************************/
 /* General Component */
 /******************************************************/
 .header {
@@ -212,12 +236,12 @@ body {
   background-color: orangered;
 }
 
-.grid {
+/* .grid {
   display: grid;
   gap: 9.6rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-.section-how div:nth-child(1) {
+  grid-template-columns: repeat(2, 1fr); */
+
+/* .section-how div:nth-child(1) {
   background-color: aqua;
 }
 .section-how div:nth-child(2) {
@@ -228,4 +252,4 @@ body {
 }
 .section-how div:nth-child(4) {
   background-color: yellow;
-}
+} */
