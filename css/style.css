@@ -226,14 +226,14 @@ body {
 /* How it work section */
 /* *********************/
 
-.section-how div {
-  padding: 100px;
+.section-how {
+  /* padding: 100px; */
   font-size: 50px;
 }
 
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
+  /* background-color: orangered; */
 }
 
 /* .grid {
