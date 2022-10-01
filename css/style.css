@@ -42,7 +42,7 @@ body {
 /******************************************************/
 .container {
   /*  1140px */
-  max-width: 150rem;
+  max-width: 110rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -73,6 +73,8 @@ body {
   margin-bottom: 3.2rem;
 }
 .heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
 }
 
 .subheading {
@@ -236,8 +238,6 @@ body {
 .section-how {
   /* padding: 100px; */
   font-size: 50px;
-}
-.section-how {
   padding: 9.6rem 0;
 }
 .step-img {
