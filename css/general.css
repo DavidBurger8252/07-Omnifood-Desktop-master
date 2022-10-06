@@ -144,3 +144,7 @@ body {
 .logo {
   height: 2.2rem;
 }
+
+strong {
+  font-weight: 500;
+}
