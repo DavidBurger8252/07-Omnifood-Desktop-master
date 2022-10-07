@@ -72,6 +72,15 @@
   /* Trick to add boder inside */
   box-shadow: inset 0 0 0 3px #fff;
 }
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+}
 .margin-right-sm {
   margin-right: 1.6em !important;
 }
@@ -259,4 +268,26 @@
 }
 .meal-img {
   width: 100%;
+}
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #cf711f;
 }
