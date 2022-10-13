@@ -308,6 +308,9 @@ link:active {
   /* row-gap: 4.8rem;
   column-gap: 8rem; */
 }
+.testimonial {
+  padding: 1.6rem;
+}
 
 .testimonial-img {
   width: 6.4rem;
@@ -315,7 +318,7 @@ link:active {
   margin-bottom: 1.2rem;
 }
 .testimonial-text {
-  font-size: 1.8rem;
+  /* font-size: 1.6rem; */
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
@@ -323,6 +326,7 @@ link:active {
   font-size: 1.6rem;
   color: #6f6f6f;
 }
+
 /* ********* GALLERY ***************** */
 .gallery {
   display: grid;
@@ -348,4 +352,18 @@ link:active {
 
 .section-pricing {
   padding: 9.6rem 0;
+}
+.Pricing-plan {
+  /* background-color: #fdf2e9; */
+  border-radius: 11px;
+  padding: 4.8rem;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+}
+.pricing-plan--complete {
+  background-color: #fdf2e9;
 }
