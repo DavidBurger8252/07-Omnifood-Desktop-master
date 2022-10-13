@@ -11,11 +11,16 @@ Default: 1
 ---02 COLORS
 
 - PRIMARY: #e67e22
-- TINT:#fdf2e9;
-- SHADES:
+- TINT:
+#fdf2e9;
+#fae5d3
+
+- SHADES:#cf711f
 - ACCENTS:
 - GREYS:
+#6f6f6f (lightest grey allowed on #fdf2e9)
 #555 
+
 --- 05 SHADOWS
 
 --- 06 BORDER-RADIUS
