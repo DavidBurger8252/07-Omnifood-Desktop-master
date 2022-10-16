@@ -80,6 +80,10 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -242,4 +246,11 @@ strong {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+}
+
+/* ******************************** */
+/* footer SECTION */
+/* ******************************** */
+.footer {
+  padding: 9.6rem 0;
 }
