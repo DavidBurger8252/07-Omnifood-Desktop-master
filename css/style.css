@@ -32,7 +32,7 @@
   align-items: center;
   gap: 3.2rem;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -41,6 +41,11 @@
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   /* put transition on original "state"  */
   /* transition: background-color 1s; */
@@ -71,6 +76,16 @@
 
   /* Trick to add boder inside */
   box-shadow: inset 0 0 0 3px #fff;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
 }
 
 .link:link,
@@ -421,7 +436,7 @@
   background-image: linear-gradient(to right bottom, #eb984e #e67e22);
   overflow: hidden;
   /* TEMPORARY HEIGHT */
-  height: 50rem;
+  /* height: 50rem; */
 }
 
 .cta-text-box {
@@ -454,4 +469,37 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.cta-form input::placeholder {
+  color: #aaa;
+}
+/* .cta-form select {
+}
+.cta-form button {
+} */
+
+.cta *:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
